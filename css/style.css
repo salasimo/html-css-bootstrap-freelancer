@@ -84,7 +84,8 @@ p{
 }
 
 .card{
-    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .content img{
