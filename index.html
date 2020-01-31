@@ -1,91 +1,116 @@
 <!DOCTYPE html>
 <html lang="it" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Bootstrap v3.4.1 and minified CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Bootstrap Freelancer</title>
-    </head>
-    <body>
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="text-left col-xs-8">
-                        <a class="logo" href="#">START BOOTSTRAP</a>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap v3.4.1 and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap Freelancer</title>
+</head>
+
+<body>
+    <header class="navbar-fixed-top ms--bg-dark">
+        <div class="container">
+            <div class="row text-uppercase">
+                <div class="text-left col-xs-8 col-sm-6">
+                        <a class="logo" href="#">Start Bootstrap</a>
                     </div>
-                    <div class="navabar col-xs-4 text-right">
-                        <a class="menu btn btn-default" href="#" role="button">MENU <span class="glyphicon glyphicon-menu-hamburger"></span></a>
+                    <nav class="ms--navbar col-xs-4 col-sm-6 text-right">
+                        <a class="ms--menu btn btn-default visible-xs-inline visible-sm-inline ms--bg-primary" href="#" role="button">MENU <span class="glyphicon glyphicon-menu-hamburger"></span></a>
+                        <ul class="hidden-xs hidden-sm">
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        </div>
+    </header>
+    <section class="start ms--bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="text-center col-xs-12">
+                    <img class="avatar" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/avataaars.svg" alt="Freelancer">
+                    <h1 class="text-center text-uppercase">Start Bootstrap</h1>
+                    <div class="separatore-stella text-center">
+                        <div class="linea-spessa"></div>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <div class="linea-spessa"></div>
+                    </div>
+                    <p>Graphic Artist - Web Designer - Illustrator</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio ms--bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="text-uppercase text-center">portfolio</h2>
+                    <div class="separatore-stella text-center">
+                        <div class="linea-spessa"></div>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <div class="linea-spessa"></div>
                     </div>
                 </div>
             </div>
-        </header>
-        <section class="start">
-            <div class="container">
-                <div class="row">
-                    <div class="text-center col-xs-12">
-                        <img class="avatar" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/avataaars.svg" alt="Freelancer">
-                        <h1 class="text-center text-uppercase">Start Bootstrap</h1>
-                        <div class="separatore-stella text-center">
-                            <div class="linea-spessa"></div>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <div class="linea-spessa"></div>
+            <div class="row">
+                <div class="ms--card col-xs-12 col-sm-6 col-md-4">
+                    <div class="content casa">
+                        <div class="ms--overlay">
+                            <span class="glyphicon glyphicon-plus ms--card-plus"></span>
                         </div>
-                        <p>Graphic Artist - Web Designer - Illustrator</p>
+                        <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cabin.png" alt="">
+                    </div>
+
+                </div>
+                <div class="ms--card col-xs-12 col-sm-6 col-md-4">
+                    <div class="content torta">
+                        <div class="ms--overlay">
+                            <span class="glyphicon glyphicon-plus ms--card-plus"></span>
+                        </div>
+                        <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cake.png" alt="">
+                    </div>
+                </div>
+                <div class="ms--card col-xs-12 col-sm-6 col-md-4">
+                    <div class="content circo">
+                        <div class="ms--overlay">
+                            <span class="glyphicon glyphicon-plus ms--card-plus"></span>
+                        </div>
+                        <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/circus.png" alt="">
+                    </div>
+                </div>
+                <div class="ms--card col-xs-12 col-sm-6 col-md-4">
+                    <div class="content game">
+                        <div class="ms--overlay">
+                            <span class="glyphicon glyphicon-plus ms--card-plus"></span>
+                        </div>
+                        <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/game.png" alt="">
+                    </div>
+                </div>
+                <div class="ms--card col-xs-12 col-sm-6 col-md-4">
+                    <div class="content cassaforte">
+                        <div class="ms--overlay">
+                            <span class="glyphicon glyphicon-plus ms--card-plus"></span>
+                        </div>
+                        <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/safe.png" alt="">
+                    </div>
+                </div>
+                <div class="ms--card col-xs-12 col-sm-6 col-md-4">
+                    <div class="content beatles">
+                        <div class="ms--overlay">
+                            <span class="glyphicon glyphicon-plus ms--card-plus"></span>
+                        </div>
+                        <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/submarine.png" alt="">
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h2 class="text-uppercase text-center">portfolio</h2>
-                        <div class="separatore-stella text-center">
-                            <div class="linea-spessa"></div>
-                            <span class="glyphicon glyphicon-star"></span>
-                            <div class="linea-spessa"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                        <div class="card col-xs-12 col-sm-6 col-md-4">
-                            <div class="content casa">
-                                <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cabin.png" alt="">
-                            </div>
-
-                        </div>
-                        <div class="card col-xs-12 col-sm-6 col-md-4">
-                            <div class="content torta">
-                                <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cake.png" alt="">
-                            </div>
-                        </div>
-                        <div class="card col-xs-12 col-sm-6 col-md-4">
-                            <div class="content circo">
-                                <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/circus.png" alt="">
-                            </div>
-                        </div>
-                        <div class="card col-xs-12 col-sm-6 col-md-4">
-                            <div class="content game">
-                                <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/game.png" alt="">
-                            </div>
-                        </div>
-                        <div class="card col-xs-12 col-sm-6 col-md-4">
-                            <div class="content cassaforte">
-                                <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/safe.png" alt="">
-                            </div>
-                        </div>
-                        <div class="card col-xs-12 col-sm-6 col-md-4">
-                            <div class="content beatles">
-                                <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/submarine.png" alt="">
-                            </div>
-                        </div>
-                </div>
-            </div>
-
-        </section>
+    </section>
 
 
 
@@ -96,19 +121,16 @@
 
 
 
+    <section class="about">
 
+    </section>
+    <section class="contact">
 
+    </section>
+    <footer>
 
+    </footer>
 
-        <section class="about">
+</body>
 
-        </section>
-        <section class="contact">
-
-        </section>
-        <footer>
-
-        </footer>
-
-    </body>
 </html>
