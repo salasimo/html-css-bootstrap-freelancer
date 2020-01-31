@@ -1,28 +1,29 @@
 .clearfix:after {
-    content:"";
+    content: "";
     display: table;
     clear: both;
 }
 
-.ms--bg-dark{
+.ms--bg-dark {
     color: #fff;
     background-color: #2c3e50;
 }
-.ms--bg-light{
+
+.ms--bg-light {
     color: #2c3e50;
     background-color: #fff;
 }
-.ms--bg-primary{
+
+.ms--bg-primary {
     color: #fff;
     background-color: #1abc9c;
 }
 
 header {
-
     height: 80px;
 }
 
-a.logo{
+a.logo {
     text-decoration: none;
     color: #fff;
     font-size: 24px;
@@ -30,119 +31,121 @@ a.logo{
     line-height: 80px;
 }
 
-header .ms--navbar{
+header .ms--navbar {
     line-height: 80px;
 }
+
 .ms--navbar ul li {
     display: inline-block;
     margin-left: 30px;
 }
-.ms--navbar ul li a{
+
+.ms--navbar ul li a {
     font-size: 16px;
 }
-.btn.ms--menu{
+
+.btn.ms--menu {
     border: none;
     border-radius: 8px;
     padding-top: 12px;
     padding-bottom: 12px;
     transform: translateY(-2px);
+    font-weight: 600;
 }
-.btn.ms--menu:hover{
+
+.btn.ms--menu:hover {
     background-color: #148f77;
+    color: white;
 }
-nav a, nav a:visited, nav a:active{
+
+nav a, nav a:visited, nav a:active {
     font-size: 13px;
     font-weight: 600;
     color: #fff;
     text-decoration: none;
 }
-nav a:hover{
+
+nav a:hover {
     color: #1abc9c;
     text-decoration: none;
 }
 
-
-
-img.avatar{
+img.avatar {
     width: 240px;
 }
-.start{
-    margin-top:80px;
-}
-section{
-    padding-top: 70px;
-    padding-bottom:70px;
+
+.start {
+    margin-top: 80px;
 }
 
-.start h1{
+section {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.start h1 {
     font-size: 50px;
     font-weight: 600;
     margin-top: 30px;
 }
-.separatore-stella{
+
+.separatore-stella {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.linea-spessa{
-    border:2px solid;
-    display: inline-block;
-    width:110px;
-    border-radius: 4px;
 
+.linea-spessa {
+    border: 2px solid;
+    display: inline-block;
+    width: 110px;
+    border-radius: 4px;
 }
 
-.glyphicon-star{
+.glyphicon-star {
     font-size: 40px;
     vertical-align: middle;
     padding-left: 17px;
     padding-right: 15px;
 }
 
-p{
+p {
     font-size: 20px;
 }
 
-
-.portfolio .row{
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-h2{
+h2 {
     font-size: 35px;
     font-weight: 600;
 }
 
-.ms--card{
+.ms--card {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.content img{
-    border-radius:10px;
-
+.content img {
+    border-radius: 10px;
 }
 
-.content{
+.content {
     position: relative;
 }
 
-.ms--overlay{
+.ms--overlay {
     background-color: #1abc9c;
     opacity: 0;
     z-index: 10;
     position: absolute;
-    width:100%;
-    height:100%;
-    border-radius:10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
-.ms--overlay:hover{
+.ms--overlay:hover {
     opacity: 0.9;
     transition: ease 0.3s;
 }
 
-.ms--card-plus{
+.ms--card-plus {
     color: #fff;
     font-size: 65px;
     position: absolute;
@@ -151,55 +154,166 @@ h2{
     transform: translate(-50%, -50%);
 }
 
+.ms--btn-download {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    color: #fff;
+
+}
 
 
+.ms--btn-download:hover {
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    transition: ease 0.3s;
+}
 
+.ms--btn-download-box {
+    margin-top: 45px;
+}
 
+.ms--form-label input, .ms--form-label textarea {
+    border: none;
+    border-radius: 0;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, .0);
+    font-size: 24px;
+    resize: none;
+}
 
+form {
+    margin-top: 30px;
+}
 
+.form-control:focus {
+    box-shadow: none;
+}
 
+.ms--form-label:after {
+    content: "";
+    border: 0.5px solid lightgray;
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 30px;
+}
 
+.ms--send {
+    border: none;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
 
+.ms--send:hover {
+    background-color: #148f77;
+    color: white;
+    transition: ease 0.3s;
+}
 
+footer {
+    padding-top: 70px;
+}
 
+footer [class*="col-"] {
+    padding-bottom: 50px;
+}
 
+footer h5 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
 
+footer span {
+    font-size: 20px;
+    position: relative;
+    margin-right: 10px;
+}
 
+footer span:last-child {
+    margin-right: 0;
+}
 
+footer i {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+footer i:hover {
+    background-color: #fff;
+    color: #000;
+    transition: ease 0.3s;
+}
 
+.ms--social, .ms--social a, .ms--social i {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
 
+.ms--social i:before {
+    position: absolute;
+    transform: translate(-50%, -40%);
+}
 
+.ms--startbt {
+    color: #1abc9c;
+    text-decoration: none;
+}
 
+a.ms--startbt:hover {
+    color: #148f77;
+    text-decoration: underline;
+}
 
+.ms--sub-footer {
+    background-color: #1a252f;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.ms--sub-footer span {
+    font-size: 13px;
+    display: inline-block;
+    line-height: 80px;
+    margin-top: 5px;
+}
 
 /* =====MEDIA QUERY===== */
-
-
-@media screen and (max-width:767px){
-    .container{
+@media screen and (max-width:767px) {
+    .container {
         max-width: 550px;
         margin: 0 auto;
+    }
 
+    .portfolio .row {
+        max-width: 400px;
+        margin: 0 auto;
     }
 }
 
-@media screen and (min-width:768px){
-    .portfolio .row{
-        max-width: 100%;
-        margin: 0 auto;
+@media screen and (min-width:992px){
+    .start p{
+        font-size:24px;
     }
-
-}
-
-
-
-/*LARGE */
-
-@media screen and (min-width:1140px){
-    .container{
-        width: 1140px;
-        margin: 0 auto;
-
+    .start h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size:50px;
     }
 }
